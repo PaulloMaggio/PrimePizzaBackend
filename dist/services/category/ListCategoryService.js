@@ -13,7 +13,7 @@ class ListCategoryService {
                 name: true
             }
         });
-        return category; // Retorna a lista de categorias
+        return category; 
     }
 }
 exports.ListCategoryService = ListCategoryService;

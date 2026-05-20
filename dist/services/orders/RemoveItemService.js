@@ -12,7 +12,7 @@ class RemoveItemService {
                 id: productId
             }
         });
-        return { productId: order.product_Id }; // Retorna o productId do item removido do pedido
+        return { productId: order.product_Id }; 
     }
 }
 exports.RemoveItemService = RemoveItemService;

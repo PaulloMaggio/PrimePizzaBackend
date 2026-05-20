@@ -9,7 +9,7 @@ class RemoveOrderController {
         const order = await removeOrderService.execute({
             orderId
         });
-        return res.json(order); // Retorna o pedido removido}
+        return res.json(order); 
     }
 }
 exports.RemoveOrderController = RemoveOrderController;

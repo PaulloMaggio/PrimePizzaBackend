@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-dotenv.config(); // Adicione esta linha no TOPO
+dotenv.config(); 
 
 import express, {Request, Response, NextFunction} from "express";
 import 'express-async-errors';
@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(fileUpload({
-    limits: { fileSize: 50 * 1024 * 1024 } // Limite de 50MB
+    limits: { fileSize: 5 * 1024 * 1024 } 
 }));
 app.use(router);
 

@@ -12,7 +12,7 @@ class RemoveOrderService {
             }
         });
 
-        return order; // Retorna o pedido removido
+        return order; 
     }
 }
 

@@ -12,7 +12,7 @@ class RemoveOrderService {
                 id: orderId
             }
         });
-        return order; // Retorna o pedido removido
+        return order; 
     }
 }
 exports.RemoveOrderService = RemoveOrderService;

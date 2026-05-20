@@ -10,7 +10,7 @@ class ListCategoryService {
             }
         });
 
-        return category; // Retorna a lista de categorias
+        return category; 
       
     }
 }

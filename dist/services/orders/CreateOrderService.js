@@ -13,7 +13,7 @@ class CreateOrderService {
                 name: name
             }
         });
-        return order; // Retorna o pedido criado
+        return order; 
     }
 }
 exports.CreateOrderService = CreateOrderService;

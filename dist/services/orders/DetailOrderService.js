@@ -9,7 +9,7 @@ class DetailOrderService {
     async execute({ orderId }) {
         const orders = await prisma_1.default.item.findMany({
             where: {
-                order_Id: orderId, // <-- CORRIGIDO AQUI!
+                order_Id: orderId, 
             },
             include: {
                 product: true,

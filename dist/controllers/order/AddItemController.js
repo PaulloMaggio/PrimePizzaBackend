@@ -11,7 +11,7 @@ class AddItemController {
             productId,
             amount
         });
-        return res.json(order); // Retorna o item adicionado ao pedido
+        return res.json(order); 
     }
 }
 exports.AddItemController = AddItemController;

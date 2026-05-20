@@ -7,7 +7,7 @@ class RemoveItemController {
         const productId = req.query.productId;
         const removeItemservice = new RemoveItemService_1.RemoveItemService();
         const order = await removeItemservice.execute(productId);
-        return res.json(order); // Retorna o productId do item removido do pedido
+        return res.json(order); 
     }
 }
 exports.RemoveItemController = RemoveItemController;

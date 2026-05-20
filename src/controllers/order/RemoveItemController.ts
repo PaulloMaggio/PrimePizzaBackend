@@ -9,7 +9,7 @@ class RemoveItemController {
 
         const order = await removeItemservice.execute(productId);
 
-        return res.json(order); // Retorna o productId do item removido do pedido
+        return res.json(order); 
     }
 }
 

@@ -11,7 +11,7 @@ class RemoveOrderController {
             orderId
         });
 
-        return res.json(order); // Retorna o pedido removido}
+        return res.json(order); 
     }
 }
 

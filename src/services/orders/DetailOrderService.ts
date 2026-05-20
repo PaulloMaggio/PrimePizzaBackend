@@ -9,7 +9,7 @@ class DetailOrderService {
 
         const orders = await prismaClient.item.findMany({
             where: {
-                order_Id: orderId, // <-- CORRIGIDO AQUI!
+                order_Id: orderId, 
             },
             include: { 
                 product: true,

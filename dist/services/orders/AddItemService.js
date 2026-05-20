@@ -14,7 +14,7 @@ class AddItemService {
                 amount: amount
             }
         });
-        return order; // Retorna o item adicionado ao pedido
+        return order; 
     }
 }
 exports.AddItemService = AddItemService;
